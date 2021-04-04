@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.navbar {
+    background-color: white;
+    padding: 1em;
+}
+
+nav {
+    display: none;
+}
+
+#navcontainer {
+    display: flex;
+    place-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+
+span {
+    color: #007AF3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.mainsection {
+    text-align: center;
+}
+
+.left-side {}
+
+.nameheader {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+    letter-spacing: .3em;
+}
+
+.port-title {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-top: .2em;
+}
+
+.hero-image {
+    width: 70%;
+    margin-top: 3em;
+}
+
+section.about-me {
+    background-color: #20272E;
+    color: honeydew;
+}
+
+.project-list {
+    margin: 0;
+    margin-left: .1em;
+}
+
+a {
+    color: honeydew;
+    text-decoration: none;
+}
+
+li {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+    section {
+        padding: 10em 4em;
+    }
+    .mainsection .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
