@@ -30,21 +30,17 @@ span {
     color: #007AF3;
 }
 
-.container {
-    display: flex;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
 }
 
-section {
-    padding: 5em 2em;
+li {
+    font-size: 1.1em;
 }
 
-.main-nav {
-    float: left;
+section {
+    padding: 5em 2em;
 }
 
 .mainsection {
@@ -81,6 +77,28 @@ section.about-me {
     margin-left: .1em;
 }
 
+a {
+    color: honeydew;
+    text-decoration: none;
+}
+
 li {
     font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+    section {
+        padding: 10em 4em;
+    }
+    .mainsection .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
 }
